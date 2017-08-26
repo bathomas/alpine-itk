@@ -12,6 +12,6 @@ RUN apk add alpine-sdk cmake wget && \
     tar xvzf InsightToolkit-4.12.1.tar.gz && \
     cd /opt/ITK-4.12.1/BUILD && \
     cmake -DBUILD_TESTING:BOOL=OFF -DModule_ITKReview:BOOL=ON -DCMAKE_BUILD_TYPE:STRING=Release /opt/ITK-4.12.1/InsightToolkit-4.12.1 && \
-    make -j && make install && \
+    make && make install && \
     rm -rf /opt/ITK-4.12.1
 #RUN apk del --purge alpine-sdk cmake wget
