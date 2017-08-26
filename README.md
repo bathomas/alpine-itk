@@ -1,2 +1,2 @@
 # alpine-itk
-Alpine-based ITK docker container
+Builds [ITK](https://itk.org/) in an Alpine Linux Docker container.
