@@ -1,4 +1,4 @@
-# ITK built in Apline Linux
+# ITK built in Alpine Linux
 FROM alpine:3.6
 
 MAINTAINER Benjamin A. Thomas <b.a.thomas@ucl.ac.uk>
